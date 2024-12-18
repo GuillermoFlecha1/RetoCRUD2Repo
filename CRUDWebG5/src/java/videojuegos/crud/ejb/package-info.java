@@ -1,0 +1,3 @@
+/*
+ */
+package videojuegos.crud.ejb;
