@@ -1,0 +1,20 @@
+Titulo: Tienda 1
+Descripcion: Esta es una tienda de ejemplo donde se venden muchos productos interesantes. Aquí puedes encontrar todo lo que necesitas para tus aventuras. Desde pociones curativas hasta armas mágicas, tenemos lo mejor para ti.
+Foto: img/foto1.png
+
+Titulo: Tienda 2
+Descripcion: Otra tienda donde los objetos mágicos son la especialidad. Visítanos y explora todo lo que tenemos disponible para ti. Desde amuletos hasta libros arcanos, te aseguramos que encontrarás lo que buscas.
+Foto: img/foto2.png
+
+Titulo: Tienda 3
+Descripcion: Tienda de armas y armaduras. Encontrarás lo mejor en cuanto a equipo de combate para tus batallas. Espadas, escudos, armaduras de acero y más. ¡Todo lo que un aventurero necesita para estar preparado!
+Foto: img/foto3.png
+
+Titulo: Tienda 4
+Descripcion: En esta tienda se venden pociones curativas y mágicas. Ven a ver nuestra gran variedad de productos. Tenemos pociones de salud, invisibilidad, fortaleza y muchas más para ayudarte en tu viaje.
+Foto: img/foto4.png
+
+Titulo: Tienda 5
+Descripcion: Aquí encontrarás accesorios mágicos, encantamientos y otros objetos misteriosos que solo se encuentran en lugares secretos. Si estás buscando algo especial o raro, esta es la tienda indicada.
+Foto: img/foto5.png
+

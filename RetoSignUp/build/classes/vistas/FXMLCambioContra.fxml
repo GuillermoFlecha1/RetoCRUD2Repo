@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vistas.FXMLCambioContraController">
+   <children>
+      <Button layoutX="337.0" layoutY="300.0" mnemonicParsing="false" onAction="#btnCambioContra" prefHeight="26.0" prefWidth="152.0" text="CAMBIAR" />
+      <Label layoutX="52.0" layoutY="143.0" prefHeight="18.0" prefWidth="198.0" text="Codigo de recuperacion" />
+      <TextField fx:id="txtCodigoRecuperacion" layoutX="263.0" layoutY="139.0" prefHeight="26.0" prefWidth="225.0" />
+      <Label layoutX="96.0" layoutY="59.0" prefHeight="18.0" prefWidth="408.0" text="Introduce el email de recuperacion" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btnAtras" layoutX="124.0" layoutY="300.0" mnemonicParsing="false" onAction="#volverInicioSesion" prefHeight="26.0" prefWidth="152.0" text="Atras" />
+      <Label layoutX="52.0" layoutY="184.0" prefHeight="18.0" prefWidth="198.0" text="Nueva contraseña" />
+      <TextField fx:id="txtContraNueva" layoutX="263.0" layoutY="180.0" prefHeight="26.0" prefWidth="225.0" />
+      <Label layoutX="52.0" layoutY="225.0" prefHeight="18.0" prefWidth="198.0" text="Repite la contraseña" />
+      <TextField fx:id="txtContraRepetida" layoutX="263.0" layoutY="221.0" prefHeight="26.0" prefWidth="225.0" />
+   </children>
+</AnchorPane>
