@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<odoo>
+    <!-- Grupo para Administradores -->
+    <record id="grupo_administrador" model="res.groups">
+        <field name="name">Administrador</field>
+    </record>
+
+    <!-- Grupo para Clientes -->
+    <record id="grupo_cliente" model="res.groups">
+        <field name="name">Cliente</field>
+    </record>
+
+
+    <record id="accesso_administrador_desarolladora" model="ir.model.access">
+        <field name="name">Acceso Administrador</field>
+         <field name="model_id" ref="model_videojuegosreto2_desarrolladora"/>
+         <field name="group_id" ref="grupo_administrador"/>
+    </record>
+
+    <record id="accesso_administrador_plataforma" model="ir.model.access">
+        <field name="name">Acceso Administrador</field>
+         <field name="model_id" ref="model_videojuegosreto2_plataforma"/>
+         <field name="group_id" ref="grupo_administrador"/>
+    </record>
+
+    <record id="accesso_administrador_tienda" model="ir.model.access">
+        <field name="name">Acceso Administrador</field>
+         <field name="model_id" ref="model_videojuegosreto2_tienda"/>
+         <field name="group_id" ref="grupo_administrador"/>
+    </record>
+
+    <record id="accesso_administrador_videojuego" model="ir.model.access">
+        <field name="name">Acceso Administrador</field>
+         <field name="model_id" ref="model_videojuegosreto2_videojuego"/>
+         <field name="group_id" ref="grupo_administrador"/>
+    </record>
+
+    <record id="accesso_administrador_usuario" model="ir.model.access">
+        <field name="name">Acceso Administrador</field>
+         <field name="model_id" ref="model_videojuegosreto2_usuario"/>
+         <field name="group_id" ref="grupo_administrador"/>
+    </record>
+
+    <record id="accesso_cliente_tienda" model="ir.model.access">
+        <field name="name">Acceso Cliente</field>
+         <field name="model_id" ref="model_videojuegosreto2_tienda"/>
+         <field name="group_id" ref="grupo_cliente"/>
+    </record>
+
+    <record id="accesso_cliente_videojuego" model="ir.model.access">
+        <field name="name">Acceso Cliente</field>
+         <field name="model_id" ref="model_videojuegosreto2_videojuego"/>
+         <field name="group_id" ref="grupo_cliente"/>
+    </record>
+
+    <record id="accesso_cliente_usuario" model="ir.model.access">
+        <field name="name">Acceso Cliente</field>
+         <field name="model_id" ref="model_videojuegosreto2_usuario"/>
+         <field name="group_id" ref="grupo_cliente"/>
+    </record>
+
+    <record id="accesso_cliente_cliente" model="ir.model.access">
+        <field name="name">Acceso Cliente</field>
+         <field name="model_id" ref="model_videojuegosreto2_cliente"/>
+         <field name="group_id" ref="grupo_cliente"/>
+    </record>
+</odoo>
