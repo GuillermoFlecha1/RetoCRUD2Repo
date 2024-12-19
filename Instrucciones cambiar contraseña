@@ -1,0 +1,6 @@
+Intrucciones
+El nombre de usuario y la contraseña actual estan en archivos/usuario.txt
+El codigo de recuperacion se guarda en archivos/codigo.txt
+
+Requisitos
+Tener SMTP instalado
